@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="pacific.css">
+  <meta charset="UTF-8">
+  <title>Pacific Trails Resort :: Reservations</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Free Web tutorials">
+</head>
+<body>
+<div id="wrapper">
+  <header><h1 style ="font-size: xx-large"><a href="index.html">Pacific Trails Resort</a></h1></header>
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="yurts.html">Yurts</a></li>
+      <li><a href="activities.html">Activities</a></li>
+      <li><a href="reservations.html">Reservations</a></li>
+    </ul>
+  </nav>
+  </div>
+  <main>
+    <h2 style="font-size: x-large">Reservations at Pacific Trails</h2>
+    <h3>Contact Us Today!</h3>
+    <form method="post" action="https://webdevbasics.net/scripts/pacific.php">
+      <label for="Fname">*First Name:</label>
+      <input type="text" name="Fname" id="Fname" required="required" placeholder="">
+      <br>
+      <label for="Lname">*Last Name:</label>
+      <input type="text" name="Lname" id="Lname" required="required" placeholder="">
+      <br>
+      <label for="Email">*E-mail:</label>
+      <input type="email" name="Email" id="Email" required="required" placeholder="">
+      <br>
+      <label for="Phone">*Phone:</label>
+      <input type="text" name="Phone" id="Phone" required="required" placeholder="">
+      <br>
+      <label for="arivaldate">Arrival Date:</label>
+      <input type="date" name="arivaldate" id="arivaldate">
+      <br>
+      <label for="nights">Nights:</label>
+      <input type="number" name="nights" id="nights">
+      <br>
+      <label for="comments">*Comments</label>
+      <textarea id="comments" name="comments" rows="2" cols="20" required="required"></textarea>
+      <br>
+      <input type="submit" value="Submit Information">
+    </form>
+      <span class="resort">Pacific Trails Resort</span><br>
+    <div class="ID">12010 Pacific Trails Road<br>
+      Zephyr, CA 95555<br><br>
+      855-555-5555<br></div>
+  </main>
+  <footer>
+    <p>
+      Copyright &copy; 2020 Pacific Trails Resort<br>
+      <a href="https://outlook.office365.com/mail/">gnettesheim3@my.wctc.edu</a><br>
+      <a href="privacy.html">Our Privacy Policy</a>
+    </p>
+  </footer>
+</body>
+</html>
